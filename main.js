@@ -16,7 +16,7 @@ var a = 2;
 var x = 1 + (a *= 2);
 alert(x);// x = 5
 
-//задание со *
+//задание со * вариант 1
 var number;
     for(number = 1; number <= 100; number++){
         if (number%3==0){
@@ -27,5 +27,14 @@ var number;
             console.log(number);
         }
             
+    }
+//задание со * - вариант 2
+var number;
+    for(number = 1; number <= 100; number++){
+        if ((number%3)==0&(number%5)==0){
+            console.log("FizzBuzz");
+        }else {
+            console.log(number);
+        }
     }
 
