@@ -9,4 +9,4 @@ function countBs(word){
 }
 
 
-countBs("woBBrd");
+countBs("Barbiturate");//в идеале здесь нужно привести все буквы к одному регистру
