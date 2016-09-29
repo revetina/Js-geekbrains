@@ -1,7 +1,7 @@
 function countBs(word){
-    var count=0;
+    var count = 0;
     for(var i=0; i < word.length; i++){
-        if(word.charAt(i)==="B") {
+        if(word.charAt(i) === "B") {
             count +=1;
     }
   }
