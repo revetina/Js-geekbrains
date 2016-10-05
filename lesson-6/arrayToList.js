@@ -1,6 +1,6 @@
 function arrayToList(arr) {
     function prepend(element) { //получает элемент и создаёт новый список, где этот элемент добавлен спереди к первоначальному списку
-        newList = {
+        var newList = {
             value: element,
             rest: list
         };
@@ -16,8 +16,8 @@ function arrayToList(arr) {
             }
         }
     };
-    list1 = prepend(0);
-    list2 = prepend(-1);
+    var list1 = prepend(0);
+    var list2 = prepend(-1);
     console.log(list, list1, list2);
 };
 
